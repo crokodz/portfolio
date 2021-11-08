@@ -64,7 +64,7 @@ transform: translateY(85px);
     margin: 0 auto;
     height: 400px;
     text-align: center;
-    margin-top: calc(50% - 400px);
+    margin-top: calc(50vh - 200px);
 }
 .container h1 {
 font-size: 70px;
