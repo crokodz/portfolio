@@ -363,8 +363,32 @@ form button:hover {
 }
 
 
+icon3 {
+        padding: 20px;
+        margin: 5px;
+        /* border: 1px solid #df8e16; */
+        border-radius: 40px;
+        min-width: 80px;
+        min-height: 80px;
+        z-index: 2000;
+        cursor: pointer;
+        font-size: 20px;
+        /* vertical-align: -webkit-baseline-middle */
+        
+}
 
-.icon2 a {
+.icon3 img {
+        vertical-align: -webkit-baseline-middle;
+        transition: all .2s ease-in-out;
+}
+
+.icon3 img:hover{
+        width: 300px !important;
+        transform: scale(1.1);
+}
+
+
+.icon3 a {
         color: #df8e16;
         vertical-align: -webkit-baseline-middle
 }
