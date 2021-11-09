@@ -269,20 +269,20 @@ form button:hover {
         animation-delay: 11s;
 }
 @-webkit-keyframes square {
-0% {
+        0% {
         transform: translateY(0);
-}
-100% {
+        }
+        100% {
         transform: translateY(-700px) rotate(600deg);
-}
+        }
 }
 @keyframes square {
-0% {
+        0% {
         transform: translateY(0);
-}
-100% {
+        }
+        100% {
         transform: translateY(-700px) rotate(600deg);
-}
+        }
 }
 
 .icon {
@@ -294,7 +294,16 @@ form button:hover {
         min-height: 80px;
         z-index: 2000;
         cursor: pointer;
-        vertical-align: -webkit-baseline-middle
+        vertical-align: -webkit-baseline-middle;
+        transition: all .2s ease-in-out;
+}
+
+.icon:hover i{
+        color: rgb(49, 49, 49) !important;
+}
+
+.icon:hover{
+        background-color: #fafafa;
 }
 
 .icon i {
@@ -350,11 +359,16 @@ form button:hover {
         cursor: pointer;
         font-size: 20px;
         /* vertical-align: -webkit-baseline-middle */
+        transition: all .2s ease-in-out;
 }
 
 .icon2 i {
         font-size: 32px;
-        /* vertical-align: -webkit-baseline-middle */
+        
+}
+
+.icon2:hover{
+        transform: scale(2);
 }
 
 .icon2 img {
@@ -383,8 +397,7 @@ icon3 {
 }
 
 .icon3 img:hover{
-        width: 300px !important;
-        transform: scale(1.1);
+        transform: scale(1.5);
 }
 
 
