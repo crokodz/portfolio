@@ -368,7 +368,7 @@ form button:hover {
 }
 
 .icon2:hover{
-        transform: scale(2);
+        transform: scale(1.3);
 }
 
 .icon2 img {
