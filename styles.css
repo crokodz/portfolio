@@ -455,7 +455,7 @@ icon3 {
   right: 30px;
   z-index: 100;
   font-size: 24px;
-  color: #000;
+  color: #000000ad;
 }
 
 span {
@@ -464,26 +464,26 @@ span {
 
 /* unvisited link */
 .header a:link {
-  color: #000;
+  color: #000000ad;
   text-decoration: none;
 }
 
 /* visited link */
 .header a:visited {
-  color: #000;
+  color: #000000ad;
   text-decoration: none;
 }
 
 /* mouse over link */
 .header a:hover {
-  color: #000;
+  color: #000000ad;
   text-decoration: none;
   font-weight: bold;
 }
 
 /* selected link */
 .header a:active {
-  color: #000;
+  color: #000000ad;
   text-decoration: none;
 }
 
